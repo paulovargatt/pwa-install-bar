@@ -12,10 +12,16 @@ Uma biblioteca simples para adicionar uma barra de instalação de PWA com detec
 
 ```javascript
 new PWAInstallBar({
-    appName: 'Seu App',
-    appUrl: 'app.seudominio.com',
-    androidInstructions: '/android.jpg',
-    iosInstructions: '/ios.jpg'
+    appName: 'Mujeres Positivas',
+    appUrl: 'app.mujerespositivas.com',
+    appIcon: '/icon.png',
+    androidInstructions: '/android-instructions.jpg',
+    iosInstructions: '/ios-instructions.jpg',
+    backgroundColor: '#000000',
+    buttonColor: '#9AE6B4',
+    textColor: '#FFFFFF',
+    buttonText: 'Instalar',
+    zIndex: 9999
 });
 ```
 
